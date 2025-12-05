@@ -10,7 +10,7 @@ authors = [
 description = "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation"
 version = "0.0.1"
 readme = "README.md"
-requires-python = "==3.10"
+requires-python = ">=3.10"
 keywords = ["vision-language-actions models", " robotic manipulation", "memory"]
 license = {file = "LICENSE"}
 classifiers = [
@@ -35,7 +35,7 @@ dependencies = [
     "accelerate>=0.25.0",
     "draccus>=0.8.0",
     "einops",
-    "huggingface_hub",
+    "huggingface-hub>=0.23.0",
     "json-numpy",
     "jsonlines",
     "matplotlib",
@@ -50,7 +50,6 @@ dependencies = [
     "tensorflow==2.15.0",
     "tensorflow_datasets==4.9.3",
     "tensorflow_graphics==2021.12.3",
-    "huggingface-hub==0.29.3",
     "numpy==1.26.4",
     "opencv-python==4.11.0.86",
     "dlimp @ git+https://github.com/moojink/dlimp_openvla",
